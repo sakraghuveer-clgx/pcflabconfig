@@ -1,0 +1,6 @@
+fortuneService:
+  scheme: http
+  address: fortuneservice-manful-multimillionaire.apps.selma.cf-app.com
+  randomFortunePath: api/fortunes/random
+  allFortunesPath: api/fortunes/all
+
