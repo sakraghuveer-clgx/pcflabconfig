@@ -2,10 +2,14 @@ Logging:
   IncludeScopes: false
   Debug:
     LogLevel: 
-      Default: Information
+      Default: Debug
+      Pivotal: Debug 
+      Steeltoe: Debug 
   Console:
     LogLevel: 
-      Default: Information
+      Default: Debug
+      Pivotal: Debug 
+      Steeltoe: Debug 
 eureka:
   client:
     serviceUrl: https://eureka-2187cd14-9f3d-4b87-9360-c4a30f530125.apps.selma.cf-app.com
