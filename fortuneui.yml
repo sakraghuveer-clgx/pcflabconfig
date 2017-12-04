@@ -1,6 +1,8 @@
+eureka:
+  client:
+    shouldRegisterWithEureka: false
 fortuneService:
   scheme: http
-  address: fortuneservice-manful-multimillionaire.apps.selma.cf-app.com
+  address: fortuneservice
   randomFortunePath: api/fortunes/random
   allFortunesPath: api/fortunes/all
-
